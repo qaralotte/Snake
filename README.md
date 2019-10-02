@@ -2,6 +2,7 @@
 
 ### Required
 **C++11 or above**  
+**Only run on Windows**  
 
 ### Effect
 <img src="https://github.com/qaralotte/Snake/blob/master/Screenshot.png" width="960" height="530" alt="Fail"/>  
