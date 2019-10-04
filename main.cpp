@@ -124,11 +124,11 @@ std::pair<int, int> randomFood(const std::list<std::pair<int, int>>& snake_pos) 
         std::pair<int, int> food_pos = std::make_pair(distx(mt), disty(mt));
         bool last{};
         for (auto mPos : snake_pos) {
-            if (mPos != food_pos) {
+            if (mPos == food_pos) {
                 last = true;
             }
         }
-        if (last) {
+        if (!last) {
             return food_pos;
         }
     }
